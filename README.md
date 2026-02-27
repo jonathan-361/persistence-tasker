@@ -1,6 +1,7 @@
 ## Persistence Tasker
 
 Este proyecto está conformado por tanto el backend y frontend. Así mismo, se explicará en este **README** las pruebas y diagrama de flujo que de igual manera, se encuentran en el proyecto.
+Para poder iniciar el backend y frontend es necesario el comando de `npm run dev`
 
 ---
 
@@ -14,8 +15,8 @@ El backend cuenta con tres endpoints que son:
 <br>
 
 - **Recibir**
-  `POST: http://localhost:3000/tasks`
-  `JSON: {
+  `POST: http://localhost:3000/tasks`  
+   `JSON: {
   "title": "Estudiar Express"
 }`
 
